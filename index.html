@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitness App</title>
     <link rel="stylesheet" href="./styles/style.css" />
-    <script src="https://kit.fontawesome.com/ad7acb9d45.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ad7acb9d45.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="container intro">
+      <!-- Nav section -->
       <nav class="display-flex navbar">
         <h3 class="nav-title">Fitness</h3>
         <ul class="display-flex nav-items">
@@ -19,10 +23,79 @@
           <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
           <li class="nav-item"><a href="" class="nav-link">About</a></li>
         </ul>
-        <i class="fa-solid fa-bars hamburger-icon"></i>
+        <div class="hamburger-icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </nav>
+
+      <!-- Banner section -->
+      <div class="display-flex banner">
+        <div class="display-flex banner-content">
+          <h1 class="banner-title">
+            Get body in <span class="banner-title-shape">shape</span> & stay
+            healthy
+          </h1>
+          <p class="banner-description">
+            A huge selection of health and fitness content, healthy recipes and
+            transformation stories to help you get fit and stay fit!
+          </p>
+          <div class="display-flex banner-btns">
+            <button class="btn">Join the Club</button>
+            <button class="btn download-btn">Download App</button>
+          </div>
+        </div>
+        <div>
+          <div class="display-flex img-box-top">
+            <h1>500+</h1>
+            <p>Free Workout Videos</p>
+          </div>
+          <div class="display-flex img-box-bottom">
+            <div class="img-box-bottom-cirle"></div>
+            <div class="img-box-bottom-content">
+              <h1>350+</h1>
+              <p>Video tutorial</p>
+            </div>
+          </div>
+          <img
+            class="banner-image"
+            src="./images/Images 2.png"
+            alt="Image of a person lifting a dumbell"
+          />
+        </div>
+      </div>
     </header>
-    <body></body>
+    <body>
+        <!-- Habits section -->
+         <section>
+            <div class="habits">
+                <h2 class="habits-title">Change Your Habits</h2>
+                <p class="habits-text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <div class="habits-card-container">
+                    <div class="habits-card">
+                        <img src="/images/image 3.png" alt="Imag of a man doing push up">
+                        <h4>Movement</h4>
+                        <p>We believe fitness should be accessible to everyone</p>
+                    </div>
+                    <div class="habits-card">
+                        <img src="/images/image 2.png" alt="Image of a man doing Yoga">
+                        <h4>Time</h4>
+                        <p>We believe fitness should be accessible to everyone</p>
+                    </div>
+                    <div class="habits-card">
+                        <img src="/images/image 4.png" alt="Image of a man lifting dumbell">
+                        <h4>Practice</h4>
+                        <p>We believe fitness should be accessible to everyone</p>
+                    </div>
+                    <div class="habits-card">
+                        <img src="/images/image 5.png" alt="">
+                        <h4>Weight Loss</h4>
+                        <p>We believe fitness should be accessible to everyone</p>
+                    </div>
+                    
+                </div>
+            </div>
+         </section>
+    </body>
     <footer></footer>
   </body>
 </html>
