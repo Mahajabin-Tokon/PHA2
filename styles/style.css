@@ -362,8 +362,13 @@ p {
   align-items: center;
   gap: 2rem;
   margin: 4rem auto;
-  padding: 4px;
+  padding: 5px;
   text-wrap: wrap;
+}
+
+.team-container > p {
+  width: 90%;
+  text-align: center;
 }
 
 .team-members img {
@@ -496,6 +501,7 @@ p {
 
   .BMI-title-container {
     width: 100%;
+    padding-left: 1rem;
     margin: 4rem 0;
   }
 
