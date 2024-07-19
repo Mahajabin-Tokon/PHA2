@@ -230,11 +230,31 @@ p {
   border-radius: 20px;
 }
 
+/* BMI title styles */
+.BMI-title-container {
+  display: flex;
+  gap: 1.25rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 4rem 15rem;
+}
+
+/* BMI section */
+.BMI{
+    width: 100%;
+    background-color:rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
   .nav-items {
     display: none;
   }
+
   .hamburger-icon {
     color: white;
     display: block;
@@ -264,7 +284,7 @@ p {
     width: 250px;
   }
 
-  .running{
+  .running {
     width: 80%;
   }
 
@@ -272,7 +292,12 @@ p {
     width: 100%;
   }
 
-  .running-content > button{
+  .running-content > button {
     width: 100%;
+  }
+
+  .BMI-title-container {
+    width: 100%;
+    margin: 4rem 1rem;
   }
 }
