@@ -318,6 +318,30 @@ p {
   width: 100%;
 }
 
+/* excercise setion styles */
+
+.exercise-videos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.videos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.videos iframe{
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
 /* team section styles */
 
 .team-container {
@@ -416,7 +440,8 @@ p {
   .banner,
   .habits-card-container,
   .running,
-  .BMI-content {
+  .BMI-content,
+  .videos {
     flex-direction: column;
   }
 
