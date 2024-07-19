@@ -9,8 +9,8 @@
   font-family: "Inter", sans-serif;
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
 .container {
@@ -30,7 +30,9 @@ body{
   border: none;
 }
 
-h1, h2, h4 {
+h1,
+h2,
+h4 {
   color: white;
 }
 
@@ -165,42 +167,68 @@ p {
 }
 
 /* habits section styles */
-.habits{
-    margin: 100px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 40px;
+.habits {
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.habits-text{
-    width: 550px;
-    text-wrap: wrap;
-    text-align: center;
+.habits-text {
+  width: 550px;
+  text-wrap: wrap;
+  text-align: center;
 }
 
-.habits-card-container{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+.habits-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .habits-card {
-    display: flex;
-    max-width: 200px;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    gap: 10px;
+  display: flex;
+  max-width: 200px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
 }
 
-.habits-card > img{
-    border-radius: 50%;
-    border: 1px solid grey;
-    width: 100%;
+.habits-card > img {
+  border-radius: 50%;
+  border: 1px solid grey;
+  width: 100%;
 }
 
+/* running secition styles */
+.running {
+  margin: 100px auto;
+  width: 800px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+}
+
+.running-content {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.75rem;
+}
+
+.running-img {
+  width: 350px;
+  border-radius: 20px;
+}
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
@@ -212,11 +240,13 @@ p {
     display: block;
   }
 
-  .banner,  .habits-card-container{
+  .banner,
+  .habits-card-container,
+  .running {
     flex-direction: column;
   }
 
-  .banner-title{
+  .banner-title {
     font-size: 3rem;
   }
 
@@ -230,7 +260,19 @@ p {
     left: 0px;
   }
 
-  .habits-text{
+  .habits-text {
     width: 250px;
+  }
+
+  .running{
+    width: 80%;
+  }
+
+  .running-img {
+    width: 100%;
+  }
+
+  .running-content > button{
+    width: 100%;
   }
 }
