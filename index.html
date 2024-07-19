@@ -128,7 +128,7 @@
       </section>
 
       <!-- BMI title section -->
-      <section>
+      <section class="BMI-title-section">
         <div class="BMI-title-container">
           <h2>BMI Calculator</h2>
           <p>
@@ -139,17 +139,133 @@
       </section>
 
       <!-- BMI section -->
-      <section>
-        <div class="BMI">
+      <section class="BMI-section">
+        <div class="BMI-content">
           <div class="BMI-chart">
             <h4>BMI Calculator Chart</h4>
-            <table></table>
+            <table>
+              <thead>
+                <tr>
+                  <th>BMI</th>
+                  <th>Weight Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                </tr>
+                <tr>
+                  <td>18.5 - 24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0 - 29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0 - and Above</td>
+                  <td>Obese</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div class="BMI-calculate">
             <h4>Calculate your BMI</h4>
-            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-            <div></div>
+            <p>
+              We believe fitness should be accessible to everyone, everywhere,
+              regardless of income or access to a gym.
+            </p>
+            <div class="inputs-container">
+              <div class="height-weight">
+                <input type="text" placeholder="Height/cm" />
+                <input type="text" placeholder="Weight/kg" />
+              </div>
+              <div class="age-sex">
+                <input type="text" placeholder="Age" />
+                <select placeholder="Sex">
+                  <option value="sex">Sex</option>
+                </select>
+              </div>
+              <select class="activity">
+                <option value="activity">Select an activity factor</option>
+              </select>
+            </div>
             <button class="btn">Calculate</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team section -->
+      <section class="team-section">
+        <div class="team-container">
+          <h2>Meet Our Team</h2>
+          <p>
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+          <div class="team-members">
+            <div class="member">
+              <img
+                src="./images/trainer1.png"
+                alt="Image of team member whose name is Name"
+              />
+
+              <div class="member-info">
+                <h4>Name</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div class="member">
+              <img
+                src="./images/trainer2.png"
+                alt="Image of team member whose name is Name"
+              />
+              <div class="member-info">
+                <h4>Name</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div class="member">
+              <img
+                src="./images/trainer3.png"
+                alt="Image of team member whose name is Name"
+              />
+              <div class="member-info">
+                <h4>Name</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div class="member">
+              <img
+                src="./images/trainer4.png"
+                alt="Image of team member whose name is Name"
+              />
+              <div class="member-info">
+                <h4>Name</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div class="member">
+              <img
+                src="./images/trainer5.png"
+                alt="Image of team member whose name is Name"
+              />
+              <div class="member-info">
+                <h4>Name</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
+            <div class="member">
+              <img
+                src="./images/trainer6.png"
+                alt="Image of team member whose name is Name"
+              />
+              <div class="member-info">
+                <h4>Name</h4>
+                <p>Trainer</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

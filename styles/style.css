@@ -231,22 +231,127 @@ p {
 }
 
 /* BMI title styles */
+
+.BMI-title-section {
+  width: 100%;
+}
+
 .BMI-title-container {
   display: flex;
   gap: 1.25rem;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
-  margin: 4rem 15rem;
+  text-align: start;
+  margin: 4rem 26rem;
 }
 
 /* BMI section */
-.BMI{
-    width: 100%;
-    background-color:rgb(34, 34, 34);
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
+
+.BMI-section {
+  width: 100%;
+  background-color: rgb(34, 34, 34);
+}
+
+.BMI-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 100px;
+  padding: 2rem 1rem;
+}
+
+.BMI-chart table {
+  border-collapse: collapse;
+  margin-top: 3rem;
+}
+
+.BMI-chart td,
+.BMI-chart th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 7.5px 15px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.BMI-chart th {
+  color: white;
+}
+
+.BMI-calculate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 500px;
+}
+
+.inputs-container {
+  width: 100%;
+}
+
+.BMI-calculate input,
+.BMI-calculate select {
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 2px 0;
+  padding: 8px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.height-weight,
+.age-sex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+
+.activity {
+  margin: 2px 0;
+  width: 100%;
+}
+
+/* team section styles */
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 4rem auto;
+  padding: 4px;
+  text-wrap: wrap;
+}
+
+.team-members img {
+  width: 100%;
+  border-radius: 18px;
+  height: 250px;
+}
+
+.team-members {
+  width: 60%;
+  height: 40%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.member{
+    position: relative;
+}
+
+.member-info{
+    position: absolute;
+    top: 80%;
+    left: 5%;
 }
 
 /* responsive media query */
@@ -262,7 +367,8 @@ p {
 
   .banner,
   .habits-card-container,
-  .running {
+  .running,
+  .BMI-content {
     flex-direction: column;
   }
 
@@ -298,6 +404,14 @@ p {
 
   .BMI-title-container {
     width: 100%;
-    margin: 4rem 1rem;
+    margin: 4rem 0;
+  }
+
+  .BMI-calculate {
+    width: 100%;
+  }
+
+  .team-members{
+    grid-template-columns: 1fr;
   }
 }
