@@ -9,6 +9,19 @@ The **Fitness App** is a dynamic and interactive web application focused on prom
 
 ---
 
+## Technologies and Packages Used
+
+- **HTML5**: Semantic structure for accessible and maintainable code.
+- **CSS3**: Advanced styling with animations and responsive design techniques.
+- **Font Awesome**: Iconography for navigation and interactive elements.
+- **Google Fonts**:
+  - *Inter*: Clean and modern font for general content.
+  - *Alex Brush*: Aesthetic font for highlighting sections.
+  - *Miama*: Elegant font for decorative headings.
+- **Responsive Design**: Media queries for seamless display on all devices.
+
+---
+
 ## Key Features
 
 1. **Responsive Navigation and Banner**:
@@ -39,19 +52,6 @@ The **Fitness App** is a dynamic and interactive web application focused on prom
 7. **Footer Section**:
    - Useful links and branding information.
    - Responsive design ensures seamless functionality across devices.
-
----
-
-## Technologies and Packages Used
-
-- **HTML5**: Semantic structure for accessible and maintainable code.
-- **CSS3**: Advanced styling with animations and responsive design techniques.
-- **Font Awesome**: Iconography for navigation and interactive elements.
-- **Google Fonts**:
-  - *Inter*: Clean and modern font for general content.
-  - *Alex Brush*: Aesthetic font for highlighting sections.
-  - *Miama*: Elegant font for decorative headings.
-- **Responsive Design**: Media queries for seamless display on all devices.
 
 ---
 
